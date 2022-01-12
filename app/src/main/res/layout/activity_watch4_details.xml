@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Watch3DetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="310dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/watch4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="339dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="ONE PLUS SUPER SMART WATCH"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:text="3.9"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="402dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#B32D2D"
+        android:text="ONEPLUS HAS ENTERED THE WEARABLES MARKET WITH ITS NEW ONEPLUS WATCH, A SEEMINGLY HIGH-END SMARTWATCH IN BOTH LOOKS AND FEATURES, BUT AT A LOWER PRICE THAN THE COMPETITION. THE ONEPLUS WATCH HAS A LOT GOING FOR IT. IT HAS A SLEEK DESIGN"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="84dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="16dp"
+        android:text="₹3999"
+        android:textColor="@color/purple_500"
+
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Buy4"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Buy4"
+        android:layout_width="287dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="4dp"
+        android:text="Buy"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/rate4"
+        android:layout_width="43dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unnamed" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

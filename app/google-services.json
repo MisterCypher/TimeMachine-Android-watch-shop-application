@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535344005077",
+    "project_id": "timemachine-956af",
+    "storage_bucket": "timemachine-956af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535344005077:android:d6812f21268a9f1f09075c",
+        "android_client_info": {
+          "package_name": "com.example.timemachine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535344005077-nifdnoreo78118u34851cmr3vjqjpmft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVosHAUHQcoMG-OaKUYNv7piOgTaSq39Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535344005077-nifdnoreo78118u34851cmr3vjqjpmft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
